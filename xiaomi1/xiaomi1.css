@@ -1,0 +1,156 @@
+body{
+  font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+  color: #333;
+  background-color: #fff;
+  min-width: 1226px;   
+  margin: 0
+
+}
+.header{
+  width: 1226px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@font-face {         /*指定名为"iconfont"的矢量图标，并指定在哪里可以找到它的URL：*/           
+  font-family: "iconfont";
+  src: url('iconfont.eot?t=1559400042443'); 
+  src: url('iconfont.eot?t=1559400042443#iefix') format('embedded-opentype'),
+  url('data:application/x-font-woff2;charset=utf-8;base64,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') format('woff2'),
+  url('iconfont.woff?t=1559400042443') format('woff'),
+  url('iconfont.ttf?t=1559400042443') format('truetype'), 
+  url('iconfont.svg?t=1559400042443#iconfont') format('svg'); 
+}
+.iconfont {         /*引用阿里巴巴矢量图标库*/
+  font-family: "iconfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.sub{
+  margin-top:14px;
+}
+.row{
+  margin-left: -14px;
+}
+.kuang{
+  width:234px;
+  float: left;
+  margin-left: 14px;
+}
+.tu{
+  width: 978px;
+  float: left;
+  margin-left: 14px;
+}
+.list{
+  margin: 0;
+  padding: 3px;
+  list-style-type: none;
+  font-size: 12px;
+  text-align: center;
+  background: #5f5750;
+}
+.list li{
+  position: relative;
+  float: left;
+  width: 70px;
+  height: 82px;
+  padding: 0 3px;
+  cursor: pointer;
+}
+.pro-list{
+  margin:0;
+  padding:0;
+  list-style-type: none;
+
+}
+img{
+  width:316px;
+  height:170px;
+  border:0;
+}
+ul{
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
+.pro-list li.pian {
+  margin-left: 0;
+}
+.pro-list li{
+  float: left;
+  width: 316px;
+  height: 170px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+li{
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+.list a {
+  display: block;
+  padding-top: 18px;
+  color: rgba(255,255,255,0.7);
+}
+a {
+  text-decoration: none;
+}
+.list span{
+  display: block;
+  height: 24px;
+  margin-bottom: 4px;
+  font-size: 25px;
+  line-height: 24px;
+}
+
+.row::before, .row::after{  /*利用伪元素进行修饰*/
+  content:" ";
+  display:table;
+}
+.row::after{
+  clear:both;
+}
+.clearfix::before,.clearfix::after{
+  content:" ";
+  display: table;
+}
+.clearfix::after{
+  clear:both;
+}
+
+.list li.top::before{
+  display: none;
+}
+.list li::before{
+  top:-1px;
+  left: 6px;
+  width: 64px;
+  height: 1px;
+}
+.list li:before, .-list li:after {
+  position: absolute;
+  content: "";
+  background: #665e57;
+}
+.list li.left:after {
+  display: none;
+}
+.list li:after {
+  top: 6px;
+  left: 0;
+  width: 1px;
+  height: 70px;
+}
+.list li:before, .list li:after {
+  position: absolute;
+  content: "";
+  background: #665e57;
+}
+
+
